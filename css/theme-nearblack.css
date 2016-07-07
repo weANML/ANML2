@@ -1496,7 +1496,12 @@ nav.fixed.scrolled {
   visibility: visible;
   opacity: 1;
 }
-nav.transparent {
+.has-offscreen-nav nav.fixed {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+​ nav.transparent {
   background: none;
 }
 nav.transparent .menu > li > a,
@@ -3492,6 +3497,9 @@ img {
 .instafeed.grid-gallery.gapless li img {
   width: 100%;
 }
+.instafeed li img {
+  height: auto;
+}
 @media all and (max-width: 990px) {
   .instafeed.grid-gallery li {
     width: 33.333333%;
@@ -3859,6 +3867,12 @@ iframe {
   .vid-bg .player {
     display: none;
   }
+  .vid-bg .container.fadeOut {
+    opacity: 1;
+  }
+  .vid-bg .masonry-loader {
+    display: none;
+  }
 }
 video {
   max-width: 100%;
@@ -4113,7 +4127,7 @@ video {
   opacity: 0.5;
   z-index: 2;
 }
-@media all and (max-width: 990px) {
+@media all and (max-width: 1024px) {
   .fs-vid-background {
     display: none;
   }
