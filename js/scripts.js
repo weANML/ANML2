@@ -1,6 +1,5 @@
 var mr_firstSectionHeight,
     mr_nav,
-    mr_fixedAt,
     mr_navOuterHeight,
     mr_navScrolled = false,
     mr_navFixed = false,
@@ -104,7 +103,6 @@ $(document).ready(function() {
 
     mr_nav = $('body .nav-container nav:first');
     mr_navOuterHeight = $('body .nav-container nav:first').outerHeight();
-        mr_fixedAt = typeof mr_nav.attr('data-fixed-at') !== typeof undefined ? parseInt(mr_nav.attr('data-fixed-at').replace('px', '')) : parseInt($('section:nth-of-type(1)').outerHeight());
     window.addEventListener("scroll", updateNav, false);
 
     // Menu dropdown positioning
@@ -258,8 +256,8 @@ $(document).ready(function() {
     
     if($('.instafeed').length){
     	jQuery.fn.spectragram.accessData = {
-			accessToken: '1406933036.dc95b96.2ed56eddc62f41cbb22c1573d58625a2',
-			clientID: '87e6d2b8a0ef4c7ab8bc45e80ddd0c6a'
+			accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
+			clientID: 'fedaafacf224447e8aef74872d3820a1'
 		};	
 
         $('.instafeed').each(function() {
@@ -408,9 +406,6 @@ $(document).ready(function() {
             }
         	linkedModal.find('iframe').attr('src', (linkedModal.find('iframe').attr('data-src') + autoplayMsg));
         }
-        if(linkedModal.find('video').length){
-            linkedModal.find('video').get(0).play();
-        }
         linkedModal.toggleClass('reveal-modal');
         return false; 
     });
@@ -435,29 +430,6 @@ $(document).ready(function() {
             },delay);
         }
 	});
-
-    // Exit modals
-    $('.foundry_modal[data-show-on-exit]').each(function(){
-        var modal = $(this);
-        var exitSelector = $(modal.attr('data-show-on-exit'));
-        // If a valid selector is found, attach leave event to show modal.
-        if($(exitSelector).length){
-            modal.prepend($('<i class="ti-close close-modal">'));
-            $(document).on('mouseleave', exitSelector, function(){
-                if(!$('body .reveal-modal').length){
-                    if(typeof modal.attr('data-cookie') !== typeof undefined){
-                        if(!mr_cookies.hasItem(modal.attr('data-cookie'))){
-                            modal.addClass('reveal-modal');
-                            $('.modal-screen').addClass('reveal-modal');
-                        }
-                    }else{
-                        modal.addClass('reveal-modal');
-                        $('.modal-screen').addClass('reveal-modal');
-                    }
-                }
-            });
-        }
-    });
 
     // Autoclose modals
 
@@ -1011,6 +983,7 @@ $(window).load(function() {
 
 
 }); 
+
 function updateNav() {
 
     var scrollY = mr_scrollTop;
@@ -1031,7 +1004,7 @@ function updateNav() {
         return;
     }
 
-    if (scrollY > mr_navOuterHeight + mr_fixedAt) {
+    if (scrollY > mr_firstSectionHeight) {
         if (!mr_navScrolled) {
             mr_nav.addClass('scrolled');
             mr_navScrolled = true;
@@ -1044,7 +1017,7 @@ function updateNav() {
                 mr_navFixed = true;
             }
 
-            if (scrollY > mr_navOuterHeight + 10) {
+            if (scrollY > mr_navOuterHeight * 2) {
                 if (!mr_outOfSight) {
                     mr_nav.addClass('outOfSight');
                     mr_outOfSight = true;
@@ -1073,7 +1046,6 @@ function updateNav() {
 
     }
 }
-
 
 function capitaliseFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -1185,7 +1157,7 @@ window.initializeMaps = function(){
                         latitude      = latlong ? 1 *latlong.substr(0, latlong.indexOf(',')) : false,
                         longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
                         geocoder      = new google.maps.Geocoder(),
-                        address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): [""],
+                        address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): false,
                         markerTitle   = "We Are Here",
                         isDraggable = $(document).width() > 766 ? true : false,
                         map, marker, markerImage,
