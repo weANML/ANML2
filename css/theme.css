@@ -859,7 +859,7 @@ body.btn-rounded .btn {
   max-width: 100%;
 }
 nav {
-  background: #fff;
+  background-color: rgba(255,255,255,0.5);
   -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
@@ -885,6 +885,7 @@ nav .btn,
 .nav-bar .btn {
   margin: 0;
   height: auto;
+  background-color: transparent;
 }
 .nav-utility {
   height: 45px;
@@ -902,6 +903,7 @@ nav .btn,
   line-height: 53px;
   border-bottom: 1px solid #ccc;
 }
+
 .nav-bar .module,
 .nav-bar .module-group {
   height: 55px;
@@ -910,6 +912,8 @@ nav .btn,
   display: inline-block;
   height: 55px;
 }
+nav.transparent .nav-utility, nav.transparent .nav-bar { border-bottom: none; }
+
 .logo {
   max-height: 60%;
 }
@@ -1506,7 +1510,7 @@ nav.transparent .nav-utility {
 }
 nav.transparent .nav-utility,
 nav.transparent .nav-bar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0px solid rgba(255, 255, 255, 0.5);
 }
 nav.transparent .module.widget-handle {
   border-left: 1px solid rgba(255, 255, 255, 0.2) !important;
