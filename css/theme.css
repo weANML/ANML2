@@ -46,14 +46,14 @@ body {
   font-size: 13px;
   line-height: 24px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #666;
   overflow-x: hidden;
+}
 }
 body.boxed-layout {
   background: #eee;
 }
 body.boxed-layout .main-container {
-  background: #fff;
+  background: #000000;
 }
 body.boxed-layout,
 .boxed-layout .nav-container,
