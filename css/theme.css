@@ -5748,8 +5748,6 @@ footer.bg-dark a {
 .modal-header {
     padding:9px 15px;
     border-bottom:1px solid #eee;
-    
-    background-image: url('/img/01-tinyp.jpg');
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
@@ -5760,8 +5758,6 @@ footer.bg-dark a {
 .modal-body {
     padding:9px 15px;
     border-bottom:1px solid #eee;
-    background-image: url('http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg');
-
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
