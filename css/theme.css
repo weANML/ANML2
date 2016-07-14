@@ -5703,3 +5703,70 @@ footer.bg-dark a {
     padding-bottom: 240px !important;
   }
 }
+
+
+
+
+.round-button {
+  width:150px;
+  height: 150px;
+}
+.round-button-circle {
+  width: 100%;
+  height:0;
+  padding-bottom: 100%;
+    border-radius: 50%;
+  border:1px solid #cfdcec;
+    overflow:hidden;
+    
+    background: #transparent; 
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+  background: transparent;
+}
+.round-button a {
+    display:block;
+  float:left;
+  width:100%;
+  padding-top:50%;
+    padding-bottom:50%;
+  line-height:1em;
+  margin-top:-0.5em;
+    
+  text-align:center;
+  color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    
+    background-image: url('/img/01-tinyp.jpg');
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+.modal-body {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-image: url('http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg');
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
