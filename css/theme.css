@@ -5732,12 +5732,12 @@ footer.bg-dark a {
   padding-top:50%;
     padding-bottom:50%;
   line-height:1em;
-  margin-top:-0.5em;
+  margin-top:-1.5em;
     
   text-align:center;
   color:#e2eaf3;
     font-family:Verdana;
-    font-size:1.2em;
+    font-size:0.8em;
     font-weight:bold;
     text-decoration:none;
 }
