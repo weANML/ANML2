@@ -1781,7 +1781,7 @@ textarea:focus {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #777;
+  color: #fff;
   font-size: 11px;
 }
 :-ms-input-placeholder {
@@ -5747,7 +5747,11 @@ footer.bg-dark a {
 
 .modal-header {
     padding:9px 15px;
-    border-bottom:1px solid #eee;
+    border-bottom:1px solid #fff;
+    border-left:1px solid #fff;
+    border-left:1px solid #fff;
+    border:1px solid #fff;
+    background-color: #000;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
@@ -5757,7 +5761,9 @@ footer.bg-dark a {
  }
 .modal-body {
     padding:9px 15px;
-    border-bottom:1px solid #eee;
+    border-bottom:1px solid #fff;
+    background-color: #000;
+    border:1px solid #fff;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
