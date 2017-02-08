@@ -68,6 +68,16 @@ template {
   }
 }
 
+img {
+    opacity: 0.6;
+                  transition: opacity .55s ease-in-out;
+                  -moz-transition: opacity .55s ease-in-out;
+                  -webkit-transition: opacity .55s ease-in-out;
+}
+img:hover {
+    opacity: 1.0;
+                  transition: opacity .55s ease-in-out;
+         
 
 a {
   background-color: transparent;
@@ -252,6 +262,10 @@ th {
   img {
     page-break-inside: avoid;
   }
+
+
+
+
   img {
     max-width: 100% !important;
   }
