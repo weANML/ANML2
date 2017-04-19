@@ -297,7 +297,7 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  color: #292929;
+  color: #FFFFFF;
 }
 h1,
 .h1 {
@@ -554,7 +554,7 @@ ul.lead li {
   background: #fff;
 }
 .bg-dark {
-  background: #292929;
+  background: #FFFFFF;
 }
 .color-body {
   color: #666;
@@ -680,7 +680,7 @@ footer.bg-dark li,
   top: 0;
   left: 0;
   z-index: 1;
-  background: #292929;
+  background: #FFFFFF;
   background-size: cover !important;
   background-position: 50% 50% !important;
   transition: all 0.3s ease;
@@ -840,7 +840,7 @@ body.btn-rounded .btn {
 }
 .btn.bg-dark {
   color: #fff;
-  border-color: #292929;
+  border-color: #FFFFFF;
 }
 .btn.bg-dark:hover {
   background: #434343;
@@ -959,7 +959,7 @@ nav.bg-dark .logo-dark {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #292929;
+  color: #FFFFFF;
   opacity: 0.5;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -992,7 +992,7 @@ nav.bg-dark .logo-dark {
 .menu > li ul {
   width: 200px;
   padding: 8px 0;
-  background: #292929;
+  background: #FFFFFF;
   position: absolute;
   z-index: 99;
   opacity: 0;
@@ -1111,7 +1111,7 @@ nav.nav-centered .module.widget-handle {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   cursor: default;
   width: 200px;
-  background: #292929;
+  background: #FFFFFF;
   position: absolute;
   z-index: 99;
   opacity: 0;
@@ -1535,7 +1535,7 @@ nav.transparent .logo-light {
   nav.transparent .nav-open .menu > li > a,
   nav.transparent .nav-open .module.widget-handle i,
   nav.transparent .nav-open .nav-utility {
-    color: #292929;
+    color: #FFFFFF;
   }
   nav.transparent .nav-open .logo-dark {
     display: inline;
@@ -1544,7 +1544,7 @@ nav.transparent .logo-light {
     display: none;
   }
   nav.transparent .nav-open .has-dropdown:after {
-    color: #292929;
+    color: #FFFFFF;
   }
   .menu > li:last-child > ul ul {
     right: 0;
@@ -1561,11 +1561,11 @@ nav.transparent.fixed .logo-dark {
 }
 nav.transparent.fixed .menu > li > a,
 nav.transparent.fixed .module.widget-handle i {
-  color: #292929;
+  color: #FFFFFF;
 }
 nav.transparent.fixed .menu > .has-dropdown:after {
   color: #fff;
-  color: #292929;
+  color: #FFFFFF;
 }
 nav.transparent.fixed .module.widget-handle {
   border-left: 1px solid #ccc;
@@ -1588,7 +1588,7 @@ nav.bg-dark .nav-bar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 nav.transparent.fixed.bg-dark {
-  background: #292929;
+  background: #FFFFFF;
 }
 nav.transparent.fixed.bg-dark .menu > li > a,
 nav.transparent.fixed.bg-dark .module.widget-handle i {
@@ -1642,10 +1642,10 @@ nav.nav-centered.outOfSight .logo {
 .icon {
   font-size: 64px;
   display: inline-block;
-  color: #292929;
+  color: #FFFFFF;
 }
 .image-bg.bg-light .icon {
-  color: #292929;
+  color: #FFFFFF;
 }
 .image-bg .icon,
 .bg-dark .icon {
@@ -1717,7 +1717,7 @@ input[type="password"] {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   text-transform: uppercase;
-  color: #292929;
+  color: #FFFFFF;
   letter-spacing: 1px;
   font-weight: 700;
   display: block;
@@ -1740,7 +1740,7 @@ input[type="password"] {
 }
 .image-bg.bg-light input.transparent,
 .image-bg.bg-light button.transparent {
-  border-color: #292929;
+  border-color: #FFFFFF;
 }
 input.transparent,
 button.transparent {
@@ -2592,7 +2592,7 @@ button[type="submit"] .form-loading {
   text-align: center;
   padding-top: 6px;
   margin: 0 4px;
-  color: #292929;
+  color: #FFFFFF;
   font-weight: 400;
 }
 .pagination li a:hover,
@@ -2608,7 +2608,7 @@ button[type="submit"] .form-loading {
   background: #f8f8f8;
 }
 .feature.boxed.bg-dark {
-  background: #292929;
+  background: #FFFFFF;
 }
 .bg-dark .feature.boxed {
   background: #363636;
@@ -2786,7 +2786,7 @@ button[type="submit"] .form-loading {
   font-size: 80px;
   line-height: 80px;
   font-weight: 300;
-  color: #292929;
+  color: #FFFFFF;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -2986,7 +2986,7 @@ button[type="submit"] .form-loading {
   float: left;
   display: inline-block;
   margin-right: 8px;
-  color: #292929;
+  color: #FFFFFF;
   content: "\e74b";
   font-family: 'themify';
   speak: none;
@@ -3036,7 +3036,7 @@ button[type="submit"] .form-loading {
   line-height: 30px;
 }
 .cart-overview a {
-  color: #292929;
+  color: #FFFFFF;
 }
 .cart-overview a:hover {
   color: #47b475;
@@ -3096,11 +3096,11 @@ img {
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.9) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.9) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(34, 34, 34, 0.9) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#292929', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#FFFFFF', GradientType=0);
   pointer-events: none;
 }
 .inner-title.title-center:before {
-  background: #292929;
+  background: #FFFFFF;
   opacity: .4;
 }
 .inner-title:hover:before {
@@ -3173,7 +3173,7 @@ img {
 .hover-tile {
   position: relative;
   overflow: hidden;
-  background: #292929;
+  background: #FFFFFF;
 }
 .hover-tile img {
   transition: all 0.3s ease;
@@ -3340,7 +3340,7 @@ img {
 }
 .flex-control-nav li a {
   background: none;
-  border: 2px solid #292929;
+  border: 2px solid #FFFFFF;
   width: 10px;
   height: 10px;
 }
@@ -3926,10 +3926,10 @@ video {
   -webkit-transform: scale(0.95);
 }
 .play-button.dark {
-  border-color: #292929;
+  border-color: #FFFFFF;
 }
 .play-button.dark:before {
-  border-color: transparent transparent transparent #292929;
+  border-color: transparent transparent transparent #FFFFFF;
 }
 @media all and (max-width: 767px) {
   .play-button {
@@ -3967,7 +3967,7 @@ video {
   border-color: transparent transparent transparent #ffffff;
 }
 .play-button.large.dark:before {
-  border-color: transparent transparent transparent #292929;
+  border-color: transparent transparent transparent #FFFFFF;
 }
 .play-button.inline {
   position: relative;
@@ -4597,7 +4597,7 @@ video {
   margin-bottom: 0;
 }
 .bg-dark .filters.floating {
-  background: #292929;
+  background: #FFFFFF;
 }
 .bg-dark .filters.floating h1,
 .bg-dark .filters.floating h2,
@@ -4829,7 +4829,7 @@ section + .portfolio-pullup {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #292929;
+  background: #FFFFFF;
   opacity: 0;
   z-index: 9998;
   transition: all 0.3s ease;
