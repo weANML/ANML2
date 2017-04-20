@@ -680,7 +680,7 @@ footer.bg-dark li,
   top: 0;
   left: 0;
   z-index: 1;
-  background: #FFFFFF;
+  background: #000000;
   background-size: cover !important;
   background-position: 50% 50% !important;
   transition: all 0.3s ease;
@@ -859,7 +859,7 @@ body.btn-rounded .btn {
   max-width: 100%;
 }
 nav {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgb(14,8,14);
   -webkit-backface-visibility: hidden;
   max-width: 100%;
 }
@@ -992,7 +992,7 @@ nav.bg-dark .logo-dark {
 .menu > li ul {
   width: 200px;
   padding: 8px 0;
-  background: #FFFFFF;
+  background: #000000;
   position: absolute;
   z-index: 99;
   opacity: 0;
@@ -1535,7 +1535,7 @@ nav.transparent .logo-light {
   nav.transparent .nav-open .menu > li > a,
   nav.transparent .nav-open .module.widget-handle i,
   nav.transparent .nav-open .nav-utility {
-    color: #FFFFFF;
+    color: #ffffff;
   }
   nav.transparent .nav-open .logo-dark {
     display: inline;
@@ -1544,14 +1544,14 @@ nav.transparent .logo-light {
     display: none;
   }
   nav.transparent .nav-open .has-dropdown:after {
-    color: #FFFFFF;
+    color: #000000;
   }
   .menu > li:last-child > ul ul {
     right: 0;
   }
 }
 nav.transparent.fixed {
-  background: #fff;
+  background: #000;
 }
 nav.transparent.fixed .logo-light {
   display: none;
@@ -1561,11 +1561,11 @@ nav.transparent.fixed .logo-dark {
 }
 nav.transparent.fixed .menu > li > a,
 nav.transparent.fixed .module.widget-handle i {
-  color: #FFFFFF;
+  color: #fff;
 }
 nav.transparent.fixed .menu > .has-dropdown:after {
-  color: #fff;
-  color: #FFFFFF;
+  color: #000;
+  color: #000000;
 }
 nav.transparent.fixed .module.widget-handle {
   border-left: 1px solid #ccc;
